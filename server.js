@@ -70,6 +70,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
+      "http://localhost:5000",
       "https://property-backend-o26n.onrender.com"
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],

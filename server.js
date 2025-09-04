@@ -64,7 +64,7 @@ const adminRoutes = require("./routes/adminRoutes");
 app.use("/api/buyer", buyerRoutes);
 app.use("/api/seller", sellerRoutes);
 app.use("/api/admin", adminRoutes);
-import cors from "cors";
+
 
 app.use(
   cors({
